@@ -32,6 +32,12 @@ hp-presentation {
     /* box-shadow: 10px 4px 4px 10px; */
 
 }
+hp-presentation>hp-slider{
+    display: none;
+}
+hp-presentation>hp-slider.active{
+    display: inline-block;
+}
 
 hp-slider {
     display: inline-block;
@@ -46,6 +52,9 @@ hp-slider {
     padding: 4%;
     /* border: 2px solid #7f7f9D; */
     border: 3px solid #13183E;
+
+    font-size: 7vmin;
+    font-weight: bold;
 }
 hp-shapes {
 

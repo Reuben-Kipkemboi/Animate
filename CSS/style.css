@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hp-content {
+    display: block;
+    background-color: #13183E;
+    width: 100vw;
+    height: 100vh;
+    color: #DFEFF6;
+    /* color:#7F7F9D; */
+    /* color:#5E6FC0; */
+    /* color:#5850B3; */
+
+}
+
+hp-presentation {
+    display: block;
+    background-color: #5E6FC0;
+
+    height: 80vmin;
+    width: 80vmin;
+
+}
+
+hp-slide {
+    display: block;
+    background-color: #7F7F9D;
+}

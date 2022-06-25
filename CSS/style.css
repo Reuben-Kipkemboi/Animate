@@ -5,7 +5,7 @@
 }
 
 hp-content {
-    display: block;
+    display: flex;
     background-color: #13183E;
     width: 100vw;
     height: 100vh;
@@ -13,6 +13,11 @@ hp-content {
     /* color:#7F7F9D; */
     /* color:#5E6FC0; */
     /* color:#5850B3; */
+
+    justify-content: center;
+    align-items: center;
+
+
 
 }
 
@@ -22,10 +27,21 @@ hp-presentation {
 
     height: 80vmin;
     width: 80vmin;
+    /* box-shadow: 10px 4px 4px 10px; */
 
 }
 
-hp-slide {
-    display: block;
-    background-color: #7F7F9D;
+hp-slider {
+    display: inline-block;
+    /* background-color: #7F7F9D; */
+
+    width: 80%;
+    height: 80%;
+
+    margin: 10%;
+    border-radius: 4%;
+    text-align: center;
+    padding: 4%;
+    /* border: 2px solid #7f7f9D; */
+    border: 3px solid #13183E;
 }

@@ -10,6 +10,7 @@
 <body>
     <hp-content>
         <hp-presentation>
+            
             <hp-slider class="active">
                 <hp-title>Which shape </hp-title>
                 <hp-shapes>
@@ -21,16 +22,31 @@
                 </hp-shapes>
                 <hp-title>is odd?</hp-title>  
             </hp-slider>
-            <hp-slider>
+
+
+            <hp-slider data-auto="3500">
                 <hp-title>Which shape </hp-title>
-                <hp-shapes>
+                <hp-shapes class="chosen">
                    
                     <img src="IMAGES/triangle.svg" alt="circle">
-                    <img src="IMAGES/circle.svg" alt="circle">
+                    <img class="chosen" src="IMAGES/circle.svg" alt="circle">
                     <img src="IMAGES/diamond.svg" alt="circle">
                     <img src="IMAGES/square.svg" alt="circle">
                 </hp-shapes>
                 <hp-title>is odd?</hp-title>  
+            </hp-slider>
+
+
+            <hp-slider>
+                <hp-title>How did </hp-title>
+                <hp-shapes class="chosen">
+                   
+                    <img src="IMAGES/triangle.svg" alt="circle">
+                    <img class="chosen" src="IMAGES/circle.svg" alt="circle">
+                    <img src="IMAGES/diamond.svg" alt="circle">
+                    <img src="IMAGES/square.svg" alt="circle">
+                </hp-shapes>
+                <hp-title>you know?</hp-title>  
             </hp-slider>
         </hp-presentation>
     </hp-content>

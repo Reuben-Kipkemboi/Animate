@@ -7,8 +7,17 @@ function handlePresentationClick(e){
     var currentSlide =document.querySelector('hp-slider.active');
     var nextSlide = currentSlide.nextElementSibling;
 
-    if(next){
+    if(nextSlide){
         currentSlide.classList.remove('active');
-        next.classList.add('active');
+        nextSlide.classList.add('active');
+
+
+        var auto = parseInt(nextSlide.getAttribute('data-auto'));
+
+        if(!isNaN(auto)){
+            setTimeout(function(event){
+                handlePresentationClick(event)
+            }, auto);
+        }
     }
 }
